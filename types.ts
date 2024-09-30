@@ -25,8 +25,8 @@ function calculateTax(income: number, taxYear = 2020): number {
 }
 
 // objects
-let user: {
+let userObj: {
   readonly id: number;
   name: string;
-  birthday: (date: Date) => void;
+  birthday: (date: Date) => void
 } = { id: 123, name: "Leo", birthday: (date: Date) => console.log(date) };

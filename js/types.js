@@ -22,4 +22,4 @@ function calculateTax(income, taxYear = 2020) {
     return income * 1.5;
 }
 // objects
-let user = { id: 123, name: "Leo", birthday: (date) => console.log(date) };
+let userObj = { id: 123, name: "Leo", birthday: (date) => console.log(date) };
