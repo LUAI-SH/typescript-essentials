@@ -76,6 +76,7 @@ function saveData(bytes: unknown) {
 // Never type
 function sendEmails(emails: string[]): never {
   while (true) {
+    console.log(emails)
     // send e-mails
   }
 }
