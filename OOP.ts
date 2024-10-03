@@ -71,6 +71,7 @@ class Person {
     console.log(this.name);
   }
 }
+
 class Student extends Person {
   constructor(public readonly id: number, name: string) {
     super(name);
@@ -97,6 +98,6 @@ interface IShape {
 }
 
 class Square implements IShape {
-    color: string = 'red';
-    render() {}
+  color: string = "red";
+  render() {}
 }

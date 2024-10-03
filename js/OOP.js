@@ -63,6 +63,13 @@ class Person {
         console.log(this.name);
     }
 }
+class Nabilla extends Person {
+    constructor(gender, isBeautiful = true) {
+        super('Habibti');
+        this.gender = gender;
+        this.isBeautiful = isBeautiful;
+    }
+}
 class Student extends Person {
     constructor(id, name) {
         super(name);
@@ -87,3 +94,5 @@ class Square {
     }
     render() { }
 }
+let g = new Nabilla('F');
+console.log(g.isBeautiful);
